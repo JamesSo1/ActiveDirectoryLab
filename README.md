@@ -3,6 +3,26 @@
 
 
 
+## Table of Contents
+
+- [Objective](#objective)
+- [Hardware Requirements](#hardware-requirements)
+- [Software Requirements](#software-requirements)
+- [Part 1: Creating the Domain Controller Virtual Machine](#part-1-creating-the-domain-controller-virtual-machine)
+- [Part 2: Configuring the Domain Controller Virtual Machine](#part-2-configuring-the-domain-controller-virtual-machine)
+- [Part 3: Installing Windows Server 2019 onto the Domain Controller Virtual Machine](#part-3-installing-windows-server-2019-onto-the-domain-controller-virtual-machine)
+- [Part 4: Logging into and Renaming the Domain Controller Virtual Machine](#part-4-logging-into-and-renaming-the-domain-controller-virtual-machine)
+- [Part 5: Creating the Help Desk Virtual Machine](#part-5-creating-the-help-desk-virtual-machine)
+- [Part 6: Configuring the Help Desk Virtual Machine](#part-6-configuring-the-help-desk-virtual-machine)
+- [Part 7: Installing Windows 10 Enterprise onto the Help Desk Machine](#part-7-installing-windows-10-enterprise-onto-the-help-desk-machine)
+- [Part 8: Logging into and Configuring the Help Desk Machine](#part-8-logging-into-and-configuring-the-help-desk-machine)
+- [Part 9: Adding Active Directory to the Domain Controller Machine](#part-9-adding-active-directory-to-the-domain-controller-machine)
+- [Part 10: Creating a Help Desk Account in Active Directory](#part-10-creating-a-help-desk-account-in-active-directory)
+- [Part 11: Adding the Help Desk Machine to the Domain](#part-11-adding-the-help-desk-machine-to-the-domain)
+- [Part 12: Logging into the Help Desk Virtual Machine](#part-12-logging-into-the-help-desk-virtual-machine)
+- [Part 13: Creating a New Staff Virtual Machine and Active Directory Account](#part-13-creating-a-new-staff-virtual-machine-and-active-directory-account)
+
+
 ## Objective
 The purpose of this lab is to create a virtual environment on a local Windows machine to simulate a domain network.  
 This network will utilize Windows Active Directory and will consist of a Domain Controller and client machines.  
